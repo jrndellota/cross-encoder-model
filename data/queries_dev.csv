@@ -1,0 +1,413 @@
+query_id,query_text
+q_dev_1,tempura tasting menu in ginza
+q_dev_2,rooftop bar with skyline views in shinjuku
+q_dev_3,late night rooftop around shinjuku
+q_dev_4,romantic bakery near daikanyama
+q_dev_5,outdoor seating veggie in shibuya
+q_dev_6,romantic seafood near odaiba
+q_dev_7,romantic moon near ginza
+q_dev_8,kid friendly bakery in daikanyama
+q_dev_9,best bakery in daikanyama
+q_dev_10,waterfront kids near ginza
+q_dev_11,romantic bakery near daikanyama
+q_dev_12,waterfront tempura near asakusa
+q_dev_13,best french in node
+q_dev_14,waterfront 2458959857 near node
+q_dev_15,cozy japanese in node
+q_dev_16,waterfront chinese near 中央区
+q_dev_17,romantic sushi near node
+q_dev_18,best 1710654086 in node
+q_dev_19,outdoor seating pasta in 鶴見区
+q_dev_20,kid friendly sushi in node
+q_dev_21,late night chinese around node
+q_dev_22,late night 2564177279 around node
+q_dev_23,romantic seafood near node
+q_dev_24,outdoor seating noodle in node
+q_dev_25,outdoor seating ramen in node
+q_dev_26,outdoor seating barbecue in node
+q_dev_27,best noodle in node
+q_dev_28,waterfront ramen near node
+q_dev_29,best sushi in node
+q_dev_30,cozy 4937994271 in node
+q_dev_31,waterfront ramen near 北区
+q_dev_32,kid friendly 2190745628 in node
+q_dev_33,outdoor seating 2052664221 in node
+q_dev_34,romantic 1733094471 near node
+q_dev_35,late night 1535233122 around node
+q_dev_36,late night italian around 城東区
+q_dev_37,outdoor seating 758138516 in node
+q_dev_38,outdoor seating noodle in node
+q_dev_39,outdoor seating japanese in 南蒲田一丁目
+q_dev_40,kid friendly barbecue in node
+q_dev_41,waterfront japanese near node
+q_dev_42,outdoor seating regional in node
+q_dev_43,romantic japanese near node
+q_dev_44,late night japanese around 東区
+q_dev_45,outdoor seating 2311008024 in node
+q_dev_46,cozy french in 船橋3丁目
+q_dev_47,romantic 2991668026 near node
+q_dev_48,outdoor seating 990955701 in node
+q_dev_49,romantic steak_house near 松戸市
+q_dev_50,romantic noodle near node
+q_dev_51,romantic sushi near node
+q_dev_52,romantic 926583174 near node
+q_dev_53,outdoor seating noodle in node
+q_dev_54,late night italian around node
+q_dev_55,kid friendly italian in 港北区
+q_dev_56,outdoor seating 1932142082 in node
+q_dev_57,waterfront 2458954850 near node
+q_dev_58,outdoor seating chinese in node
+q_dev_59,late night 1947464544 around node
+q_dev_60,outdoor seating 5211846212 in node
+q_dev_61,waterfront 961344343 near node
+q_dev_62,romantic international near node
+q_dev_63,"outdoor seating Sushi in Ginza, Tokyo"
+q_dev_64,romantic 2326982270 near node
+q_dev_65,late night 2278970294 around node
+q_dev_66,cozy 1433190090 in node
+q_dev_67,best 829922301 in node
+q_dev_68,cozy 2294510324 in node
+q_dev_69,cozy 2168988926 in node
+q_dev_70,waterfront 2536032343 near node
+q_dev_71,kid friendly steak_house in node
+q_dev_72,late night japanese around node
+q_dev_73,outdoor seating 1968166774 in node
+q_dev_74,romantic japanese near node
+q_dev_75,waterfront barbecue near node
+q_dev_76,best chinese in node
+q_dev_77,romantic korean near node
+q_dev_78,waterfront 2320433607 near node
+q_dev_79,romantic 3661090725 near node
+q_dev_80,best 733998708 in node
+q_dev_81,cozy ramen in node
+q_dev_82,best noodle in node
+q_dev_83,best ramen in node
+q_dev_84,romantic barbecue near node
+q_dev_85,late night sushi around node
+q_dev_86,kid friendly japanese in node
+q_dev_87,outdoor seating noodle in node
+q_dev_88,waterfront chinese near 南区
+q_dev_89,best chinese in node
+q_dev_90,outdoor seating 2312830933 in node
+q_dev_91,cozy chinese in node
+q_dev_92,outdoor seating 758167102 in node
+q_dev_93,kid friendly ramen in node
+q_dev_94,outdoor seating ramen in 大広戸
+q_dev_95,waterfront japanese near node
+q_dev_96,kid friendly japanese in node
+q_dev_97,cozy japanese in node
+q_dev_98,outdoor seating indian in node
+q_dev_99,kid friendly sushi in node
+q_dev_100,best noodle in node
+q_dev_101,romantic 2016079121 near node
+q_dev_102,late night 940135237 around node
+q_dev_103,outdoor seating western in 中央区
+q_dev_104,waterfront chinese near node
+q_dev_105,romantic sushi near node
+q_dev_106,kid friendly 765068447 in node
+q_dev_107,late night japanese around node
+q_dev_108,best italian in node
+q_dev_109,kid friendly 4529134398 in node
+q_dev_110,romantic 2310554334 near node
+q_dev_111,kid friendly ramen in node
+q_dev_112,outdoor seating japanese in node
+q_dev_113,romantic 288086195 near node
+q_dev_114,waterfront 2293447293 near node
+q_dev_115,best 4860855483 in 東区
+q_dev_116,kid friendly 5243717024 in 中央区
+q_dev_117,outdoor seating noodle in node
+q_dev_118,best japanese in node
+q_dev_119,romantic noodle near node
+q_dev_120,cozy steak_house in node
+q_dev_121,cozy noodle in node
+q_dev_122,outdoor seating steak in node
+q_dev_123,waterfront burger near node
+q_dev_124,cozy japanese in 日比谷公園
+q_dev_125,outdoor seating japanese in node
+q_dev_126,outdoor seating chinese in node
+q_dev_127,best chinese in 東区
+q_dev_128,best 1077851868 in node
+q_dev_129,late night sushi around 東区
+q_dev_130,waterfront ramen near node
+q_dev_131,late night sushi around node
+q_dev_132,best french in node
+q_dev_133,late night japanese around node
+q_dev_134,outdoor seating japanese in 中央区
+q_dev_135,best soba in node
+q_dev_136,cozy 391177931 in node
+q_dev_137,kid friendly curry in node
+q_dev_138,late night barbecue around 中央区
+q_dev_139,waterfront seafood near node
+q_dev_140,romantic ramen near node
+q_dev_141,late night steak_house around node
+q_dev_142,kid friendly seafood in node
+q_dev_143,best noodle in node
+q_dev_144,romantic barbecue near node
+q_dev_145,cozy 465483323 in node
+q_dev_146,kid friendly 923864449 in node
+q_dev_147,kid friendly 1260453245 in node
+q_dev_148,best indian in node
+q_dev_149,outdoor seating ramen in node
+q_dev_150,romantic japanese near 北区
+q_dev_151,kid friendly sushi in node
+q_dev_152,late night indian around node
+q_dev_153,kid friendly western in 早宮二丁目
+q_dev_154,kid friendly friture in node
+q_dev_155,outdoor seating hawaiian in node
+q_dev_156,kid friendly ramen in node
+q_dev_157,cozy 1999768593 in node
+q_dev_158,kid friendly barbecue in node
+q_dev_159,waterfront 288615449 near node
+q_dev_160,waterfront 2423978166 near node
+q_dev_161,kid friendly chinese in node
+q_dev_162,kid friendly curry in node
+q_dev_163,best ramen in node
+q_dev_164,kid friendly 2296879588 in node
+q_dev_165,best noodle in node
+q_dev_166,kid friendly noodle in node
+q_dev_167,romantic ramen near node
+q_dev_168,waterfront italian near node
+q_dev_169,romantic 760366321 near node
+q_dev_170,late night 3593741324 around node
+q_dev_171,late night ramen around node
+q_dev_172,cozy 中華料理屋 in node
+q_dev_173,cozy noodle in node
+q_dev_174,outdoor seating 288615452 in node
+q_dev_175,cozy curry in node
+q_dev_176,cozy 3089012688 in node
+q_dev_177,kid friendly chinese in node
+q_dev_178,cozy 2320354653 in node
+q_dev_179,kid friendly 726526580 in node
+q_dev_180,kid friendly 307410347 in node
+q_dev_181,outdoor seating 391177861 in node
+q_dev_182,kid friendly japanese in node
+q_dev_183,cozy soba in node
+q_dev_184,romantic 2300379105 near node
+q_dev_185,outdoor seating bakey in node
+q_dev_186,best chinese in node
+q_dev_187,waterfront japanese near node
+q_dev_188,waterfront french near node
+q_dev_189,waterfront 954749989 near node
+q_dev_190,"best Vegetarian in Shibuya, Tokyo"
+q_dev_191,late night noodle around node
+q_dev_192,outdoor seating 987380767 in node
+q_dev_193,late night japanese around node
+q_dev_194,kid friendly steak_house in node
+q_dev_195,cozy noodle in node
+q_dev_196,cozy ramen in node
+q_dev_197,outdoor seating sushi in 中央区
+q_dev_198,romantic 2326883004 near node
+q_dev_199,kid friendly 1687133949 in node
+q_dev_200,cozy ramen in node
+q_dev_201,romantic sushi near node
+q_dev_202,best 3509596943 in 北区
+q_dev_203,kid friendly 5317558821 in node
+q_dev_204,late night 1980296562 around node
+q_dev_205,kid friendly japanese in node
+q_dev_206,kid friendly 2312793938 in node
+q_dev_207,late night bowl around node
+q_dev_208,waterfront sushi near node
+q_dev_209,waterfront japanese near node
+q_dev_210,best 1529286805 in node
+q_dev_211,kid friendly sushi in node
+q_dev_212,outdoor seating regional in node
+q_dev_213,best french in node
+q_dev_214,waterfront 2458959857 near node
+q_dev_215,cozy japanese in node
+q_dev_216,waterfront chinese near 中央区
+q_dev_217,romantic sushi near node
+q_dev_218,best 1710654086 in node
+q_dev_219,outdoor seating pasta in 鶴見区
+q_dev_220,kid friendly sushi in node
+q_dev_221,late night chinese around node
+q_dev_222,late night 2564177279 around node
+q_dev_223,romantic seafood near node
+q_dev_224,outdoor seating noodle in node
+q_dev_225,outdoor seating ramen in node
+q_dev_226,outdoor seating barbecue in node
+q_dev_227,best noodle in node
+q_dev_228,waterfront ramen near node
+q_dev_229,best sushi in node
+q_dev_230,cozy 4937994271 in node
+q_dev_231,waterfront ramen near 北区
+q_dev_232,kid friendly 2190745628 in node
+q_dev_233,outdoor seating 2052664221 in node
+q_dev_234,romantic 1733094471 near node
+q_dev_235,late night 1535233122 around node
+q_dev_236,late night italian around 城東区
+q_dev_237,outdoor seating 758138516 in node
+q_dev_238,outdoor seating noodle in node
+q_dev_239,outdoor seating japanese in 南蒲田一丁目
+q_dev_240,kid friendly barbecue in node
+q_dev_241,waterfront japanese near node
+q_dev_242,outdoor seating regional in node
+q_dev_243,romantic japanese near node
+q_dev_244,late night japanese around 東区
+q_dev_245,outdoor seating 2311008024 in node
+q_dev_246,cozy french in 船橋3丁目
+q_dev_247,romantic 2991668026 near node
+q_dev_248,outdoor seating 990955701 in node
+q_dev_249,romantic steak_house near 松戸市
+q_dev_250,romantic noodle near node
+q_dev_251,romantic sushi near node
+q_dev_252,romantic 926583174 near node
+q_dev_253,outdoor seating noodle in node
+q_dev_254,late night italian around node
+q_dev_255,kid friendly italian in 港北区
+q_dev_256,outdoor seating 1932142082 in node
+q_dev_257,waterfront 2458954850 near node
+q_dev_258,outdoor seating chinese in node
+q_dev_259,late night 1947464544 around node
+q_dev_260,outdoor seating 5211846212 in node
+q_dev_261,waterfront 961344343 near node
+q_dev_262,romantic international near node
+q_dev_263,"outdoor seating Sushi in Ginza, Tokyo"
+q_dev_264,romantic 2326982270 near node
+q_dev_265,late night 2278970294 around node
+q_dev_266,cozy 1433190090 in node
+q_dev_267,best 829922301 in node
+q_dev_268,cozy 2294510324 in node
+q_dev_269,cozy 2168988926 in node
+q_dev_270,waterfront 2536032343 near node
+q_dev_271,kid friendly steak_house in node
+q_dev_272,late night japanese around node
+q_dev_273,outdoor seating 1968166774 in node
+q_dev_274,romantic japanese near node
+q_dev_275,waterfront barbecue near node
+q_dev_276,best chinese in node
+q_dev_277,romantic korean near node
+q_dev_278,waterfront 2320433607 near node
+q_dev_279,romantic 3661090725 near node
+q_dev_280,best 733998708 in node
+q_dev_281,cozy ramen in node
+q_dev_282,best noodle in node
+q_dev_283,best ramen in node
+q_dev_284,romantic barbecue near node
+q_dev_285,late night sushi around node
+q_dev_286,kid friendly japanese in node
+q_dev_287,outdoor seating noodle in node
+q_dev_288,waterfront chinese near 南区
+q_dev_289,best chinese in node
+q_dev_290,outdoor seating 2312830933 in node
+q_dev_291,cozy chinese in node
+q_dev_292,outdoor seating 758167102 in node
+q_dev_293,kid friendly ramen in node
+q_dev_294,outdoor seating ramen in 大広戸
+q_dev_295,waterfront japanese near node
+q_dev_296,kid friendly japanese in node
+q_dev_297,cozy japanese in node
+q_dev_298,outdoor seating indian in node
+q_dev_299,kid friendly sushi in node
+q_dev_300,best noodle in node
+q_dev_301,romantic 2016079121 near node
+q_dev_302,late night 940135237 around node
+q_dev_303,outdoor seating western in 中央区
+q_dev_304,waterfront chinese near node
+q_dev_305,romantic sushi near node
+q_dev_306,kid friendly 765068447 in node
+q_dev_307,late night japanese around node
+q_dev_308,best italian in node
+q_dev_309,kid friendly 4529134398 in node
+q_dev_310,romantic 2310554334 near node
+q_dev_311,kid friendly ramen in node
+q_dev_312,outdoor seating japanese in node
+q_dev_313,romantic 288086195 near node
+q_dev_314,waterfront 2293447293 near node
+q_dev_315,best 4860855483 in 東区
+q_dev_316,kid friendly 5243717024 in 中央区
+q_dev_317,outdoor seating noodle in node
+q_dev_318,best japanese in node
+q_dev_319,romantic noodle near node
+q_dev_320,cozy steak_house in node
+q_dev_321,cozy noodle in node
+q_dev_322,outdoor seating steak in node
+q_dev_323,waterfront burger near node
+q_dev_324,cozy japanese in 日比谷公園
+q_dev_325,outdoor seating japanese in node
+q_dev_326,outdoor seating chinese in node
+q_dev_327,best chinese in 東区
+q_dev_328,best 1077851868 in node
+q_dev_329,late night sushi around 東区
+q_dev_330,waterfront ramen near node
+q_dev_331,late night sushi around node
+q_dev_332,best french in node
+q_dev_333,late night japanese around node
+q_dev_334,outdoor seating japanese in 中央区
+q_dev_335,best soba in node
+q_dev_336,cozy 391177931 in node
+q_dev_337,kid friendly curry in node
+q_dev_338,late night barbecue around 中央区
+q_dev_339,waterfront seafood near node
+q_dev_340,romantic ramen near node
+q_dev_341,late night steak_house around node
+q_dev_342,kid friendly seafood in node
+q_dev_343,best noodle in node
+q_dev_344,romantic barbecue near node
+q_dev_345,cozy 465483323 in node
+q_dev_346,kid friendly 923864449 in node
+q_dev_347,kid friendly 1260453245 in node
+q_dev_348,best indian in node
+q_dev_349,outdoor seating ramen in node
+q_dev_350,romantic japanese near 北区
+q_dev_351,kid friendly sushi in node
+q_dev_352,late night indian around node
+q_dev_353,kid friendly western in 早宮二丁目
+q_dev_354,kid friendly friture in node
+q_dev_355,outdoor seating hawaiian in node
+q_dev_356,kid friendly ramen in node
+q_dev_357,cozy 1999768593 in node
+q_dev_358,kid friendly barbecue in node
+q_dev_359,waterfront 288615449 near node
+q_dev_360,waterfront 2423978166 near node
+q_dev_361,kid friendly chinese in node
+q_dev_362,kid friendly curry in node
+q_dev_363,best ramen in node
+q_dev_364,kid friendly 2296879588 in node
+q_dev_365,best noodle in node
+q_dev_366,kid friendly noodle in node
+q_dev_367,romantic ramen near node
+q_dev_368,waterfront italian near node
+q_dev_369,romantic 760366321 near node
+q_dev_370,late night 3593741324 around node
+q_dev_371,late night ramen around node
+q_dev_372,cozy 中華料理屋 in node
+q_dev_373,cozy noodle in node
+q_dev_374,outdoor seating 288615452 in node
+q_dev_375,cozy curry in node
+q_dev_376,cozy 3089012688 in node
+q_dev_377,kid friendly chinese in node
+q_dev_378,cozy 2320354653 in node
+q_dev_379,kid friendly 726526580 in node
+q_dev_380,kid friendly 307410347 in node
+q_dev_381,outdoor seating 391177861 in node
+q_dev_382,kid friendly japanese in node
+q_dev_383,cozy soba in node
+q_dev_384,romantic 2300379105 near node
+q_dev_385,outdoor seating bakey in node
+q_dev_386,best chinese in node
+q_dev_387,waterfront japanese near node
+q_dev_388,waterfront french near node
+q_dev_389,waterfront 954749989 near node
+q_dev_390,"best Vegetarian in Shibuya, Tokyo"
+q_dev_391,late night noodle around node
+q_dev_392,outdoor seating 987380767 in node
+q_dev_393,late night japanese around node
+q_dev_394,kid friendly steak_house in node
+q_dev_395,cozy noodle in node
+q_dev_396,cozy ramen in node
+q_dev_397,outdoor seating sushi in 中央区
+q_dev_398,romantic 2326883004 near node
+q_dev_399,kid friendly 1687133949 in node
+q_dev_400,cozy ramen in node
+q_dev_401,romantic sushi near node
+q_dev_402,best 3509596943 in 北区
+q_dev_403,kid friendly 5317558821 in node
+q_dev_404,late night 1980296562 around node
+q_dev_405,kid friendly japanese in node
+q_dev_406,kid friendly 2312793938 in node
+q_dev_407,late night bowl around node
+q_dev_408,waterfront sushi near node
+q_dev_409,waterfront japanese near node
+q_dev_410,best 1529286805 in node
+q_dev_411,kid friendly sushi in node
+q_dev_412,outdoor seating regional in node

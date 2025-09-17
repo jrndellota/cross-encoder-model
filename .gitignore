@@ -1,0 +1,27 @@
+__pycache__/
+.env
+runs/
+models/
+.DS_Store
+.venv
+
+# Internal tooling and reference code (excluded from candidate package)
+baseline/
+src/
+docs/
+gitpatch.patch
+
+# Keep only the submission verifier under scripts/
+scripts/*
+!scripts/verify_submission.py
+
+# Data generation / internal scripts (ensure excluded even if above whitelist changes)
+scripts/augment_data.py
+scripts/ingest_osm.py
+scripts/evaluate.py
+
+# Data: keep only top-500 candidate lists and essential files
+data/bm25_candidates_*.jsonl
+!data/bm25_candidates_*_top500.jsonl
+data/train_pairs.jsonl
+data/qrels_test.tsv
