@@ -2,11 +2,11 @@
 
 ## Take-home Assignment: Restaurant Search Re-ranking
 
-### 1. Scenario & Objective
+### Scenario & Objective
 You are working on TableCheck’s search team. We have an internal corpus of restaurant profiles (name, cuisine tags, location text, free-form descriptions). Customers issue natural-language queries such as “romantic omakase near Ginza” or “kid-friendly brunch in Shibuya with outdoor seating.”  
 Your job is to **fine-tune a neural re-ranking model** so that, given a candidate list of restaurants returned by our production BM25 retriever, the re-ranked list places the most relevant restaurants at the top. You must **beat the supplied baseline** on our held-out evaluation set.
 
-### 2. What TableCheck Provides
+### What TableCheck Provides
 
 | Item | Description | File(s) |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Your job is to **fine-tune a neural re-ranking model** so that, given a candidat
 | Candidate lists | Top-500 BM25 candidates per query, used as inputs to your re-ranker. | `data/bm25_candidates_{split}_top500.jsonl` |
 | Submission checker | Verifies the format of your prediction file before you submit. | `scripts/verify_submission.py` |
 
-### 3. Candidate Requirements
+### Requirements
 
 1. **Modeling**
    - Start from any publicly available cross-encoder or dual-encoder transformer (e.g., Sentence-Transformers, Hugging Face).
@@ -36,7 +36,7 @@ Your job is to **fine-tune a neural re-ranking model** so that, given a candidat
 
 4. **Time Expectation**: 1–4 focused hours. Please note wall-clock spent in your report.
 
-### 4. Scoring & Pass Criteria
+### Scoring & Pass Criteria
 
 We evaluate on the hidden test set using three metrics:
 
@@ -55,20 +55,12 @@ Secondary evaluation points:
 - Clarity of the write-up
 - Practical considerations (latency estimates, resource usage)
 
-### 5. Baseline (for reference)
-
-We provide our baseline score for the dev split as a reference target. Your goal is to beat it.
-
-- `ndcg@10 = 0.20`
-- `mrr@10 = 0.20`
-- `recall@50 = 0.40`
-
-### 5.1 What you get
+### What you get
 - Data files in `data/`: `restaurants.parquet`, `queries_{train,dev,test}.csv`, `qrels_{train,dev}.tsv`, and `bm25_candidates_{train,dev,test}_top500.jsonl`
 - A submission format checker: `scripts/verify_submission.py`
 - Expected baseline metrics above for comparison
 
-### 5.2 Submission file format
+### Submission file format
 Submit a JSONL file at `runs/test_predictions.jsonl`. One line per test query:
 
 ```json
