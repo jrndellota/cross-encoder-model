@@ -41,11 +41,15 @@ def load_predictions(path: Path) -> Dict[str, List[Candidate]]:
                 if not isinstance(cand, dict):
                     raise ValueError(f"Line {line_num}: candidate entries must be dicts")
                 doc_id = cand.get("restaurant_id")
-                score = cand.get("score")
+                # Accept either 'score' (preferred) or fallback to 'bm25_score' for BM25 candidate files
+                score = cand.get("score", cand.get("bm25_score"))
                 if not isinstance(doc_id, str):
                     raise ValueError(f"Line {line_num}: invalid restaurant_id in candidate")
                 if not isinstance(score, (int, float)):
-                    raise ValueError(f"Line {line_num}: invalid score for restaurant_id={doc_id}")
+                    available_keys = ",".join(sorted(cand.keys()))
+                    raise ValueError(
+                        f"Line {line_num}: invalid score for restaurant_id={doc_id}; expected numeric 'score' or 'bm25_score'. Keys: {available_keys}"
+                    )
                 parsed.append((doc_id, float(score)))
             parsed.sort(key=lambda x: x[1], reverse=True)
             predictions[query_id] = parsed

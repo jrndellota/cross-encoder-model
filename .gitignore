@@ -22,3 +22,9 @@ data/bm25_candidates_*.jsonl
 !data/bm25_candidates_*_top500.jsonl
 data/train_pairs.jsonl
 data/qrels_test.tsv
+data/challenge/
+data/challenge300/
+data/challenge300_jp/
+data/challenge300_jp_only/
+data/challenge300_jp_only_v2/
+data/hidden_test/
