@@ -29,35 +29,36 @@ I initially trained a cross-encoder model using `cross-encoder/ms-marco-MiniLM-L
 
 1. **Set up the environment**
 
+   Prerequisite: [uv](https://github.com/astral-sh/uv) installed.
+
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
+   uv sync
    ```
 
-2. **Training**
+2. **Train the model**
 
    ```bash
-   python src/train.py
+   uv run src/train.py
    ```
 
-3. **Inference**
+3. **Run inference**
 
    ```bash
-   python src/predict.py --split <dev|test> --model_path <model_name>
+   uv run src/predict.py --split <dev|test> --model_path <model_name>
    ```
 
    - Replace `<dev|test>` with the desired data split.
    - Replace `<model_name>` with the name of your trained model directory (e.g., `cross-encoder/ms-marco-MiniLM-L12-v2`).
 
 ### Evaluation Results (DEV)
-| Model | Epoch | NDCG@10 |  MRR@10  | Recall@50 |
-|--------|-- |--------|-----------|-------------|
-|ms-marco-MiniLM-L12-v2 | 1| 0.2395 | 0.3550 | 0.2549 |
-| ms-marco-MiniLM-L12-v2|3 | 0.2229 | 0.2096 | 0.4486 |
-|ms-marco-MiniLM-L12-v2 | 5| 0.5264 | 0.5930 | 0.5421|
-| bge-reranker-v2-m3 |1| 0.7441 | 0.8735 | 0.6428 |
+| Model                      | Parameters                                   | NDCG@10 | MRR@10 | Recall@50 |
+|----------------------------|----------------------------------------------|---------|--------|-----------|
+| ms-marco-MiniLM-L12-v2     | epochs=1, evaluation_steps=2000, warmup_steps=100  | 0.2395  | 0.3550 | 0.2549    |
+| ms-marco-MiniLM-L12-v2     | epochs=3, evaluation_steps=2000, warmup_steps=100  | 0.2229  | 0.2096 | 0.4486    |
+| ms-marco-MiniLM-L12-v2     | epochs=5, evaluation_steps=2000, warmup_steps=100  | 0.5264  | 0.5930 | 0.5421    |
+| bge-reranker-v2-m3         | epochs=1, evaluation_steps=1000, warmup_steps=100  | 0.7441  | 0.8735 | 0.6428    |
 
+Among the evaluated models, `bge-reranker-v2-m3` achieved the best overall performance across all metrics. However, this improvement came with notable tradeoffs: the model required substantially more time and computational resources for both training and inference compared to the lighter `ms-marco-MiniLM-L12-v2`.  The choice between these models involves balancing the need for top-tier ranking quality against operational efficiency and cost constraints.
 
 ## Production Considerations
 
